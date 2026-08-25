@@ -1,0 +1,96 @@
+{
+ "n": 15,
+ "scale": 1000000000000,
+ "points": [
+  [
+   984137004684,
+   104986411007
+  ],
+  [
+   867967344630,
+   496621272858
+  ],
+  [
+   398547851790,
+   873328874067
+  ],
+  [
+   -121862079574,
+   992547043500
+  ],
+  [
+   -565216772360,
+   824942422380
+  ],
+  [
+   -987084326759,
+   -160201535156
+  ],
+  [
+   -339710188228,
+   -156697910636
+  ],
+  [
+   -357034914464,
+   -891105932143
+  ],
+  [
+   239537148596,
+   -970887199649
+  ],
+  [
+   603144249549,
+   -784706827242
+  ],
+  [
+   408510325028,
+   107933284141
+  ],
+  [
+   203786672669,
+   -370136828109
+  ],
+  [
+   -802438955878,
+   -596734213942
+  ],
+  [
+   -896307558676,
+   383825201257
+  ],
+  [
+   -121016641590,
+   353994660471
+  ]
+ ],
+ "min_area_exact": "35019761063801201909013/500000000000000000000000",
+ "min_area_float": 0.07003952212760241,
+ "status": "matches",
+ "baseline_min_area_exact": "175098805321021110178741694128813003223785846738873606899002954311337092133/2500000000000000000000000000000000000000000000000000000000000000000000000000",
+ "baseline_min_area_float": 0.07003952212840844,
+ "baseline_note": "baseline_min_area_* is MathWorld's row transported to the unit-radius disk (alpha = pi * H). It is retained only so the repo's standalone verify_disk_configs.py has a numeric field to compare; it is NOT the authority. See circle_baseline.py: MathWorld's n=11 row is erroneous.",
+ "friedman_printed": "0.0700+",
+ "friedman_symmetry_class": "horizontally symmetric",
+ "claim_bracket_exact": [
+  "7/100",
+  "701/10000"
+ ],
+ "claim_bracket_float": [
+  0.07,
+  0.0701
+ ],
+ "claim": "NOT a new result. This value lies inside the published bracket for the unit-radius circle, so it is an independent REDISCOVERY of the known configuration, reached from random starts with no prior knowledge of it. Retained as an exactly certified witness only.",
+ "method": "multistart simulated annealing (C, pthreads, boundary-count cycled over 3..n across restarts) -> sequential-LP polish (scipy/HiGHS) -> snap to a 1/scale integer grid -> exact rational minimum triangle area with an exact closed-unit-disk containment check",
+ "restarts": 2048,
+ "sa_iterations": 400000,
+ "independent_restarts_reaching_this_value": 1,
+ "candidates_lp_polished": 2048,
+ "points_on_bounding_circle": 6,
+ "interior_points": 9,
+ "active_triangles": 25,
+ "total_triangles": 455,
+ "reflection_defect": 0.0005377026548866217,
+ "best_rotation_order": 5,
+ "best_rotation_defect": 0.22629498499293735,
+ "measured_symmetry": "asymmetric"
+}

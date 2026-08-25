@@ -1,0 +1,84 @@
+{
+ "n": 12,
+ "scale": 1000000000000,
+ "points": [
+  [
+   -999998188911,
+   -1903201002
+  ],
+  [
+   -116414546858,
+   -993200711477
+  ],
+  [
+   501647314872,
+   -865072234834
+  ],
+  [
+   919844172014,
+   -392283952273
+  ],
+  [
+   918344320625,
+   395782400790
+  ],
+  [
+   206780560441,
+   -356585426132
+  ],
+  [
+   498350874040,
+   866975435836
+  ],
+  [
+   -801929773767,
+   597418310688
+  ],
+  [
+   -799649954172,
+   -600466444351
+  ],
+  [
+   -412202317870,
+   -784505285
+  ],
+  [
+   -120194217841,
+   992750396624
+  ],
+  [
+   205421757429,
+   357369931417
+  ]
+ ],
+ "min_area_exact": "52457691419953066666901/500000000000000000000000",
+ "min_area_float": 0.10491538283990613,
+ "status": "matches",
+ "baseline_min_area_exact": "524576913480495251718981806692323659131266206524846887549340679610130656511/5000000000000000000000000000000000000000000000000000000000000000000000000000",
+ "baseline_min_area_float": 0.10491538269609905,
+ "baseline_note": "baseline_min_area_* is MathWorld's row transported to the unit-radius disk (alpha = pi * H). It is retained only so the repo's standalone verify_disk_configs.py has a numeric field to compare; it is NOT the authority. See circle_baseline.py: MathWorld's n=11 row is erroneous.",
+ "friedman_printed": "0.104+",
+ "friedman_symmetry_class": "symmetry of an equilateral triangle",
+ "claim_bracket_exact": [
+  "13/125",
+  "21/200"
+ ],
+ "claim_bracket_float": [
+  0.104,
+  0.105
+ ],
+ "claim": "NOT a new result. This value lies inside the published bracket for the unit-radius circle, so it is an independent REDISCOVERY of the known configuration, reached from random starts with no prior knowledge of it. Retained as an exactly certified witness only.",
+ "method": "multistart simulated annealing (C, pthreads, boundary-count cycled over 3..n across restarts) -> sequential-LP polish (scipy/HiGHS) -> snap to a 1/scale integer grid -> exact rational minimum triangle area with an exact closed-unit-disk containment check",
+ "restarts": 2048,
+ "sa_iterations": 400000,
+ "independent_restarts_reaching_this_value": 3,
+ "candidates_lp_polished": 2048,
+ "points_on_bounding_circle": 9,
+ "interior_points": 3,
+ "active_triangles": 18,
+ "total_triangles": 220,
+ "reflection_defect": 0.0001717220459622485,
+ "best_rotation_order": 3,
+ "best_rotation_defect": 1.2452954967823621e-12,
+ "measured_symmetry": "C_3"
+}

@@ -1,0 +1,72 @@
+{
+ "n": 9,
+ "scale": 1000000000000,
+ "points": [
+  [
+   407642021367,
+   880260682061
+  ],
+  [
+   -446417597311,
+   894824747540
+  ],
+  [
+   -868827149160,
+   495115526803
+  ],
+  [
+   -397994486362,
+   -917387807214
+  ],
+  [
+   265778488123,
+   -964034125563
+  ],
+  [
+   947899082993,
+   -318570758954
+  ],
+  [
+   -901413905333,
+   -358446449613
+  ],
+  [
+   140109094521,
+   -148066186007
+  ],
+  [
+   937952091272,
+   346764869151
+  ]
+ ],
+ "min_area_exact": "173763752508201959201413/1000000000000000000000000",
+ "min_area_float": 0.17376375250820195,
+ "status": "matches",
+ "baseline_min_area_exact": "868818741686064912294052822832140272441692639179011077565420608635138835117/5000000000000000000000000000000000000000000000000000000000000000000000000000",
+ "baseline_min_area_float": 0.17376374833721298,
+ "baseline_note": "baseline_min_area_* is MathWorld's row transported to the unit-radius disk (alpha = pi * H). It is retained only so the repo's standalone verify_disk_configs.py has a numeric field to compare; it is NOT the authority. See circle_baseline.py: MathWorld's n=11 row is erroneous.",
+ "friedman_printed": "0.173+",
+ "friedman_symmetry_class": "horizontally symmetric",
+ "claim_bracket_exact": [
+  "173/1000",
+  "87/500"
+ ],
+ "claim_bracket_float": [
+  0.173,
+  0.174
+ ],
+ "claim": "NOT a new result. This value lies inside the published bracket for the unit-radius circle, so it is an independent REDISCOVERY of the known configuration, reached from random starts with no prior knowledge of it. Retained as an exactly certified witness only.",
+ "method": "multistart simulated annealing (C, pthreads, boundary-count cycled over 3..n across restarts) -> sequential-LP polish (scipy/HiGHS) -> snap to a 1/scale integer grid -> exact rational minimum triangle area with an exact closed-unit-disk containment check",
+ "restarts": 2048,
+ "sa_iterations": 400000,
+ "independent_restarts_reaching_this_value": 152,
+ "candidates_lp_polished": 2048,
+ "points_on_bounding_circle": 6,
+ "interior_points": 3,
+ "active_triangles": 11,
+ "total_triangles": 84,
+ "reflection_defect": 6.023848948257331e-05,
+ "best_rotation_order": 9,
+ "best_rotation_defect": 0.27852373178433504,
+ "measured_symmetry": "asymmetric"
+}

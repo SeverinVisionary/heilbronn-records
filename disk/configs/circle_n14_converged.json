@@ -1,0 +1,321 @@
+{
+ "n": 14,
+ "scale": 1000000000000000000000000000000000,
+ "min_area_exact": "76715885771028939751784775506633485800988522351575884799934177551/1000000000000000000000000000000000000000000000000000000000000000000",
+ "min_area_float": 0.07671588577102895,
+ "points": [
+  [
+   786499799846926615375693930280731,
+   617590531696158998652628941829267
+  ],
+  [
+   180942503653202439767674958829984,
+   983493675816835551114025498961935
+  ],
+  [
+   -846287204797998422196199537333214,
+   532726915966511566620758609511051
+  ],
+  [
+   -237710290535001132699190962504222,
+   -272872605038715368894895625919661
+  ],
+  [
+   -991245961654899310211419560801005,
+   43801737923100693417044482202982
+  ],
+  [
+   -794553015948279200985276955313296,
+   -607194783284156335225574709212789
+  ],
+  [
+   264717990004378700569121657230042,
+   -246759045578659708830932604761099
+  ],
+  [
+   433979673434219618753044579953698,
+   -900922662078120940025864579868887
+  ],
+  [
+   853219308191560248748410371864039,
+   -521552310060184979532378365052603
+  ],
+  [
+   950971813528100673451604052388575,
+   146028178726100688056277476789546
+  ],
+  [
+   346427557104198732674799862189500,
+   384790308031432381864375051041013
+  ],
+  [
+   -281925704300825002737664366855359,
+   959436239285594101617368873934325
+  ],
+  [
+   -338243242726214495132491513043272,
+   -941058716951314969875693727346225
+  ],
+  [
+   -384451903734496005369995262609257,
+   346803066870852954478749170500835
+  ]
+ ],
+ "claim": "New best-known CONSTRUCTION for 14 points in the closed unit-radius disk: an exactly certified LOWER bound on alpha_disk(14). Not a proof of optimality. The configuration is a numerically stationary candidate -- see stationarity below -- but stationarity is evidence, not a theorem, and no local-optimality claim is made.",
+ "status": "improves",
+ "claim_bracket_exact": [
+  "0.0758",
+  "0.0759"
+ ],
+ "claim_bracket_float": [
+  0.0758,
+  0.0759
+ ],
+ "friedman_printed": "0.0758+",
+ "friedman_symmetry_class": "horizontally symmetric",
+ "margin_vs_friedman_upper_percent": 1.0749483149261394,
+ "exact_ties": 1,
+ "active_triangles_within_one_grid_step": 16,
+ "active_triples": [
+  [
+   0,
+   3,
+   5
+  ],
+  [
+   0,
+   3,
+   10
+  ],
+  [
+   0,
+   10,
+   13
+  ],
+  [
+   1,
+   3,
+   12
+  ],
+  [
+   1,
+   6,
+   7
+  ],
+  [
+   1,
+   6,
+   10
+  ],
+  [
+   1,
+   8,
+   10
+  ],
+  [
+   2,
+   6,
+   8
+  ],
+  [
+   2,
+   6,
+   13
+  ],
+  [
+   2,
+   10,
+   13
+  ],
+  [
+   3,
+   5,
+   6
+  ],
+  [
+   3,
+   6,
+   8
+  ],
+  [
+   3,
+   11,
+   12
+  ],
+  [
+   3,
+   11,
+   13
+  ],
+  [
+   5,
+   11,
+   13
+  ],
+  [
+   6,
+   7,
+   11
+  ]
+ ],
+ "next_smallest_relative_gap": 0.01388509831635461,
+ "containment_slack_scale2": 9545010141318649835116033783391,
+ "points_on_bounding_circle": 8,
+ "interior_points": 6,
+ "reflection_defect": 0.03009495993828194,
+ "best_rotation_order": 2,
+ "best_rotation_defect": 0.19405515778350782,
+ "measured_symmetry": "asymmetric",
+ "hp_value": "0.0767158857710289397517847755066342439604648518",
+ "points_hp": [
+  [
+   "0.786499799846926615375693930280731360213182512",
+   "0.617590531696158998652628941829266741101365254"
+  ],
+  [
+   "0.180942503653202439767674958829983962935170504",
+   "0.983493675816835551114025498961935217586320829"
+  ],
+  [
+   "-0.846287204797998422196199537333214283314127815",
+   "0.532726915966511566620758609511051174603711382"
+  ],
+  [
+   "-0.237710290535001132699190962504222031276785297",
+   "-0.272872605038715368894895625919660997299422819"
+  ],
+  [
+   "-0.991245961654899310211419560801004990935325623",
+   "0.0438017379231006934170444822029821807518601418"
+  ],
+  [
+   "-0.79455301594827920098527695531329693817380657",
+   "-0.607194783284156335225574709212788821954322201"
+  ],
+  [
+   "0.264717990004378700569121657230041930282188627",
+   "-0.246759045578659708830932604761098931674789001"
+  ],
+  [
+   "0.433979673434219618753044579953697847609332255",
+   "-0.900922662078120940025864579868887564439241387"
+  ],
+  [
+   "0.853219308191560248748410371864040185679307597",
+   "-0.521552310060184979532378365052602552192596519"
+  ],
+  [
+   "0.950971813528100673451604052388574928045272827",
+   "0.146028178726100688056277476789546199142932892"
+  ],
+  [
+   "0.346427557104198732674799862189499506906560877",
+   "0.384790308031432381864375051041013128611447822"
+  ],
+  [
+   "-0.281925704300825002737664366855359359796528758",
+   "0.95943623928559410161736887393432577043035738"
+  ],
+  [
+   "-0.338243242726214495132491513043272162839593001",
+   "-0.941058716951314969875693727346224946542244385"
+  ],
+  [
+   "-0.384451903734496005369995262609257102474120315",
+   "0.346803066870852954478749170500835237398262789"
+  ]
+ ],
+ "hp_snap_loss": "7.58159e-34",
+ "hp_note": "hp_value is the high-precision stationary value; min_area_exact is the exact rational after snapping to the 1/scale grid and sits hp_snap_loss below it. The exact one is the claim.",
+ "stationarity": {
+  "artifact": "n14_stationarity.json",
+  "producer": "n14_converge.py",
+  "is_a_theorem": false,
+  "summary": "The set {all 16 active triangles equal} is a CURVE, not a point: 16 equations in 16 spatial degrees of freedom with a rank-15 Jacobian (the rotation gauge). Earlier passes ran a Newton solve, landed somewhere on that curve and called it converged, which is why a feasible ascent direction survived the label. This deposit walks the curve to the maximum of t.",
+  "active_set_size": 16,
+  "newton_point_kkt_residual": "3.538576e-10",
+  "newton_point_ascent_rate": "1.2466426e-9",
+  "endpoint_kkt_residual": "5.2714302e-54",
+  "endpoint_residual_of_Jv_eq_1": "5.0975994e-17",
+  "endpoint_min_lambda": "0.011044907912588178284",
+  "endpoint_min_mu": "0.0013784439797086146242",
+  "multiplier_family_dimension": 1,
+  "all_multipliers_strictly_positive": true,
+  "gain_over_newton_point": "8.1380849e-18",
+  "nearest_inactive_relative_above_t": "0.013885098",
+  "slack_points_no_active_triangle": [
+   4,
+   9
+  ],
+  "slack_point_note": "these two points sit in no active triangle, so the stationary point is not isolated: they can move within their slack region without changing the minimum."
+ },
+ "predecessor_exact": "153431771542054491513902173472449113/2000000000000000000000000000000000000",
+ "predecessor_float": 0.07671588577102724,
+ "gain_over_predecessor": 1.6939948336887704e-15,
+ "gain_over_predecessor_relative": 2.208140878076819e-14,
+ "gain_note": "The convergence moved the value in its 15th significant digit. That smallness is the answer to 'why did you stop?': the earlier point was already within 2.2e-14 relative of the top of its curve.",
+ "baseline": "75857251061/1000000000000",
+ "baseline_float": 0.075857251061,
+ "ratio": 1.0113190854930727,
+ "baseline_min_area_exact": "379286255304506233377054643538343268544509249506803767074279179460902788037/5000000000000000000000000000000000000000000000000000000000000000000000000000",
+ "baseline_min_area_float": 0.07585725106090124,
+ "ratio_to_baseline": 1.0113190854943892,
+ "baseline_note": "MathWorld's H_14 * pi. Corroboration only: the quoted margin is against Friedman's printed '.0758+', whose upper end is 0.0759, because MathWorld is erroneous at n = 11.",
+ "method": "multistart simulated annealing (C, pthreads, boundary count cycled over 3..n across restarts) -> sequential-LP polish (scipy/HiGHS) -> high-precision Newton onto the active-set curve -> walk that curve to the maximum of t -> snap to a 1/scale integer grid -> exact rational minimum with an exact closed-disk containment check. Floating point proposes; rational arithmetic decides.",
+ "reproduction": {
+  "artifact": "n14_reproduction.json",
+  "producer": "n14_reproduction.py",
+  "seed_base": 20260824,
+  "restart_seed_formula": "seed_base + 1000003 * global_restart_index (0-based, contiguous)",
+  "restarts": 16384,
+  "sa_iterations": 600000,
+  "candidates_lp_polished": 16384,
+  "independent_restarts_reaching_this_basin": 9,
+  "record_hit_rate": 0.00054931640625,
+  "independent_restarts_reaching_cantrell_basin": 4,
+  "distinct_basins": {
+   "1e-09": 13684,
+   "1e-07": 13603,
+   "1e-05": 9369,
+   "0.001": 453
+  },
+  "seeds_that_reach_it": [
+   734262966,
+   1133264163,
+   1402264970,
+   1416265012,
+   2101267067,
+   3529271351,
+   10494292246,
+   11003293773,
+   14011302797
+  ],
+  "note": "Measured, not inherited. Earlier revisions carried budget metadata copied from circle_n8.json and reproduction counts with no committed artifact; these counters come from the recorded seed set above and every hit is replayable from its seed."
+ },
+ "restarts": 16384,
+ "sa_iterations": 600000,
+ "candidates_lp_polished": 16384,
+ "independent_restarts_reaching_this_value": 9,
+ "basin_width": {
+  "artifact": "n14_basin_probe.json",
+  "producer": "n14_basin_probe.py",
+  "numpy_seed": 20260824,
+  "draws_per_sigma": 128,
+  "recovery_by_sigma": {
+   "0.0001": 1.0,
+   "0.001": 1.0,
+   "0.003": 1.0,
+   "0.01": 1.0,
+   "0.02": 0.9921875,
+   "0.03": 0.7734375,
+   "0.04": 0.3671875,
+   "0.05": 0.1171875,
+   "0.07": 0.015625,
+   "0.1": 0.0,
+   "0.15": 0.0,
+   "0.2": 0.0,
+   "0.3": 0.0
+  },
+  "note": "Fraction of Gaussian kicks of size sigma from which the LP endgame walks back to this basin. Recovery is judged by polished value, which is invariant under the disk's rotation/reflection group and under relabelling."
+ }
+}

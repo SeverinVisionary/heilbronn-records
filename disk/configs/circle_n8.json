@@ -1,0 +1,68 @@
+{
+ "n": 8,
+ "scale": 1000000000000,
+ "points": [
+  [
+   -999706549675,
+   -24224255119
+  ],
+  [
+   -604367550853,
+   -796705631633
+  ],
+  [
+   246072533584,
+   -969251416411
+  ],
+  [
+   911214982042,
+   -411931130775
+  ],
+  [
+   8310,
+   -9288
+  ],
+  [
+   890193978799,
+   455581694221
+  ],
+  [
+   198838753835,
+   980032218844
+  ],
+  [
+   -642246115450,
+   766498484792
+  ]
+ ],
+ "min_area_exact": "5423546738958608302057/25000000000000000000000",
+ "min_area_float": 0.21694186955834432,
+ "status": "matches",
+ "baseline_min_area_exact": "2169426806936431720820378388323660716682355328738479324674244817/10000000000000000000000000000000000000000000000000000000000000000",
+ "baseline_min_area_float": 0.21694268069364317,
+ "baseline_note": "baseline_min_area_* is MathWorld's row transported to the unit-radius disk (alpha = pi * H). It is retained only so the repo's standalone verify_disk_configs.py has a numeric field to compare; it is NOT the authority. See circle_baseline.py: MathWorld's n=11 row is erroneous.",
+ "friedman_printed": "0.216+",
+ "friedman_symmetry_class": "completely symmetric",
+ "claim_bracket_exact": [
+  "27/125",
+  "217/1000"
+ ],
+ "claim_bracket_float": [
+  0.216,
+  0.217
+ ],
+ "claim": "NOT a new result. This value lies inside the published bracket for the unit-radius circle, so it is an independent REDISCOVERY of the known configuration, reached from random starts with no prior knowledge of it. Retained as an exactly certified witness only.",
+ "method": "multistart simulated annealing (C, pthreads, boundary-count cycled over 3..n across restarts) -> sequential-LP polish (scipy/HiGHS) -> snap to a 1/scale integer grid -> exact rational minimum triangle area with an exact closed-unit-disk containment check",
+ "restarts": 8192,
+ "sa_iterations": 600000,
+ "independent_restarts_reaching_this_value": 326,
+ "candidates_lp_polished": 6144,
+ "points_on_bounding_circle": 7,
+ "interior_points": 1,
+ "active_triangles": 7,
+ "total_triangles": 56,
+ "reflection_defect": 1.6580796570215964e-05,
+ "best_rotation_order": 8,
+ "best_rotation_defect": 0.11214090543565897,
+ "measured_symmetry": "asymmetric"
+}

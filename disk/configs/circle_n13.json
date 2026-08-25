@@ -1,0 +1,88 @@
+{
+ "n": 13,
+ "scale": 1000000000000,
+ "points": [
+  [
+   940306559882,
+   -327224375169
+  ],
+  [
+   576581554896,
+   817039601582
+  ],
+  [
+   925852350034,
+   377885466691
+  ],
+  [
+   39102856736,
+   911143855170
+  ],
+  [
+   295491361283,
+   280493085613
+  ],
+  [
+   -630411191086,
+   709507165288
+  ],
+  [
+   -968734359060,
+   -248100265167
+  ],
+  [
+   -567003429466,
+   -756145816502
+  ],
+  [
+   -456530801896,
+   -169500496433
+  ],
+  [
+   -37400839882,
+   -999300343828
+  ],
+  [
+   261601066528,
+   -393892820400
+  ],
+  [
+   491765227384,
+   -870727834134
+  ],
+  [
+   -931892575552,
+   362734376136
+  ]
+ ],
+ "min_area_exact": "85689772657397115316077/1000000000000000000000000",
+ "min_area_float": 0.08568977265739712,
+ "status": "matches",
+ "baseline_min_area_exact": "107072794665125069866888052422915162831493678233279812135959095236967447069/1250000000000000000000000000000000000000000000000000000000000000000000000000",
+ "baseline_min_area_float": 0.08565823573210006,
+ "baseline_note": "baseline_min_area_* is MathWorld's row transported to the unit-radius disk (alpha = pi * H). It is retained only so the repo's standalone verify_disk_configs.py has a numeric field to compare; it is NOT the authority. See circle_baseline.py: MathWorld's n=11 row is erroneous.",
+ "friedman_printed": "0.0856+",
+ "friedman_symmetry_class": "horizontally symmetric",
+ "claim_bracket_exact": [
+  "107/1250",
+  "857/10000"
+ ],
+ "claim_bracket_float": [
+  0.0856,
+  0.0857
+ ],
+ "claim": "NOT a new result. This value lies inside the published bracket for the unit-radius circle, so it is an independent REDISCOVERY of the known configuration, reached from random starts with no prior knowledge of it. Retained as an exactly certified witness only.",
+ "method": "multistart simulated annealing (C, pthreads, boundary-count cycled over 3..n across restarts) -> sequential-LP polish (scipy/HiGHS) -> snap to a 1/scale integer grid -> exact rational minimum triangle area with an exact closed-unit-disk containment check",
+ "restarts": 24576,
+ "sa_iterations": 800000,
+ "independent_restarts_reaching_this_value": 99,
+ "candidates_lp_polished": 8192,
+ "points_on_bounding_circle": 6,
+ "interior_points": 7,
+ "active_triangles": 17,
+ "total_triangles": 286,
+ "reflection_defect": 0.20640372391131215,
+ "best_rotation_order": 13,
+ "best_rotation_defect": 0.2677688750451472,
+ "measured_symmetry": "asymmetric"
+}

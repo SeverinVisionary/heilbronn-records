@@ -1,0 +1,93 @@
+{
+ "n": 16,
+ "scale": 1000000000000000000000,
+ "min_area_exact": "33067382155420434262092576074846779688379/500000000000000000000000000000000000000000",
+ "min_area_float": 0.06613476431084087,
+ "points": [
+  [
+   970306750752597266168,
+   241877674546323279809
+  ],
+  [
+   -241877674546303976109,
+   970306750752602078187
+  ],
+  [
+   -970306750752599471836,
+   -241877674546313719688
+  ],
+  [
+   241877674546379093897,
+   -970306750752583352855
+  ],
+  [
+   970308508305570344005,
+   -241870623908359170432
+  ],
+  [
+   241870623908415728320,
+   970308508305556245714
+  ],
+  [
+   -970308508305563268330,
+   241870623908387555803
+  ],
+  [
+   -241870623908312195573,
+   -970308508305565083062
+  ],
+  [
+   383820443530060532280,
+   1394495368689556
+  ],
+  [
+   -1394495338738805,
+   383820443530049146192
+  ],
+  [
+   -383820443530028117200,
+   -1394495349125926
+  ],
+  [
+   1394495401096487,
+   -383820443530050336057
+  ],
+  [
+   696878753710104490352,
+   696883817524450061089
+  ],
+  [
+   -696883817524406265957,
+   696878753710136979834
+  ],
+  [
+   -696878753710117860950,
+   -696883817524444326765
+  ],
+  [
+   696883817524408231744,
+   -696878753710116581174
+  ]
+ ],
+ "hp_value": "0.06613476431084086852413738478681229894342",
+ "exact_ties": 1,
+ "active_triangles_within_one_grid_step": 1,
+ "containment_slack_scale2": 131755004754737493351,
+ "baseline": "66133666951/1000000000000",
+ "baseline_float": 0.066133666951,
+ "ratio": 1.0000165930590494,
+ "points_on_bounding_circle": 8,
+ "interior_points": 8,
+ "reflection_defect": 3.005336720092626e-06,
+ "best_rotation_order": 4,
+ "best_rotation_defect": 7.546056531866583e-14,
+ "measured_symmetry": "C_4",
+ "friedman_printed": "0.0661+",
+ "friedman_symmetry_class": "symmetry of a square (D_4)",
+ "baseline_note": "baseline is MathWorld H_16 = 0.021051 transported to the unit-radius disk (alpha = pi*H).  Friedman prints only .0661+, which this value satisfies.  MathWorld is six decimals at this row, so its rounding envelope alone is +-0.0024%.",
+ "verdict": "matches the published value",
+ "in_class_exact_D4": "33067382155367771484567/500000000000000000000000",
+ "in_class_float_D4": 0.06613476431073555,
+ "in_class_reflection_defect": 0.0,
+ "claim": "MATCHES the published value. Transporting back to unit-AREA gives H_16 = 0.021051349301..., reproducing every digit MathWorld prints (0.021051...). Margin vs pi*0.021051 = 0.066133666951 is +0.0017%, far below the claimability bar. This is a reproduction of Cantrell's construction, not a record. (An earlier revision recorded baseline 0.066127749 and +0.0106%; that was an arithmetic slip.)"
+}

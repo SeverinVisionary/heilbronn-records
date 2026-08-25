@@ -1,0 +1,19 @@
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+Copyright (c) 2026 Hanyu Yang
+
+SCOPE. This licence covers ONLY the original work in this deposit: the
+configurations in `configs/`, the code (`verify.py`, `fetch_sources.py`,
+`extract_friedman_figure.py`), and the documentation (`NOTE.md`, `README.md`,
+`THIRD_PARTY.md`).
+
+It does NOT cover anything under `sources/`. Those files are mirrored copies of
+material owned by other authors, catalogued with provenance and checksums in
+THIRD_PARTY.md, and no licence over them is granted or implied here. Their
+rights have not been cleared.
+
+Subject to that scope, you are free to share and adapt this material for any
+purpose, including commercially, provided you give appropriate credit, provide a
+link to the licence, and indicate if changes were made.
+
+Full text: https://creativecommons.org/licenses/by/4.0/legalcode

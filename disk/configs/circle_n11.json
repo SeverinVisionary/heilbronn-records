@@ -1,0 +1,82 @@
+{
+ "n": 11,
+ "scale": 1000000000000,
+ "points": [
+  [
+   983206156443,
+   182498366931
+  ],
+  [
+   659919903790,
+   751335957200
+  ],
+  [
+   7980055128,
+   307723970113
+  ],
+  [
+   -147300363116,
+   989091807177
+  ],
+  [
+   -767562666063,
+   640973910284
+  ],
+  [
+   -998570406767,
+   53452247181
+  ],
+  [
+   -781510011008,
+   -623892701267
+  ],
+  [
+   -203743315332,
+   -230751781184
+  ],
+  [
+   595610354033,
+   -803273494003
+  ],
+  [
+   -28528140889,
+   -999592989760
+  ],
+  [
+   474539921376,
+   -186584430831
+  ]
+ ],
+ "min_area_exact": "1424226467883955206669/12500000000000000000000",
+ "min_area_float": 0.11393811743071641,
+ "status": "matches",
+ "baseline_min_area_exact": "548866606402309439502183776743750403930167431218529820445513270758472646097/5000000000000000000000000000000000000000000000000000000000000000000000000000",
+ "baseline_min_area_float": 0.10977332128046188,
+ "baseline_note": "baseline_min_area_* is MathWorld's row transported to the unit-radius disk (alpha = pi * H). It is retained only so the repo's standalone verify_disk_configs.py has a numeric field to compare; it is NOT the authority. See circle_baseline.py: MathWorld's n=11 row is erroneous.",
+ "friedman_printed": "0.113+",
+ "friedman_symmetry_class": "horizontally symmetric",
+ "claim_bracket_exact": [
+  "113/1000",
+  "57/500"
+ ],
+ "claim_bracket_float": [
+  0.113,
+  0.114
+ ],
+ "claim": "NOT a new result. This value lies inside the published bracket for the unit-radius circle, so it is an independent REDISCOVERY of the known configuration, reached from random starts with no prior knowledge of it. Retained as an exactly certified witness only.",
+ "known_result_attribution": "David Cantrell, August 2006 (Friedman's circle page: '.113+', horizontally symmetric)",
+ "mathworld_erratum": "MathWorld's n=11 row (0.03494193340280051 unit-area = 0.109773530502 unit-radius) is below Friedman/Cantrell's .113+ unit-radius value. MathWorld is in error; Friedman is primary.",
+ "method": "multistart simulated annealing (C, pthreads, boundary-count cycled over 3..n across restarts) -> sequential-LP polish (scipy/HiGHS) -> snap to a 1/scale integer grid -> exact rational minimum triangle area with an exact closed-unit-disk containment check",
+ "restarts": 2048,
+ "sa_iterations": 400000,
+ "independent_restarts_reaching_this_value": 4,
+ "candidates_lp_polished": 2048,
+ "points_on_bounding_circle": 8,
+ "interior_points": 3,
+ "active_triangles": 14,
+ "total_triangles": 165,
+ "reflection_defect": 2.664066724881052e-05,
+ "best_rotation_order": 4,
+ "best_rotation_defect": 0.2603936754945962,
+ "measured_symmetry": "asymmetric"
+}
