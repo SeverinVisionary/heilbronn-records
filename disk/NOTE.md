@@ -159,6 +159,14 @@ in `data/n14_stationarity.json`:
 | KKT residual (inf-norm over all `2N+1` rows) | `3.5e-10` — no feasible multipliers found at working precision | `5.3e-54` |
 | smallest multipliers | — | `min lambda = 1.10e-2`, `min mu = 1.38e-3`, strictly positive |
 
+Here `lambda_T >= 0` are the multipliers on the active area constraints
+(normalised to `sum lambda_T = 1`) and `mu_i >= 0` those on the active disk
+constraints, in the stationarity condition
+`sum_T lambda_T grad(sigma_T area_T) = sum_i 2 mu_i p_i`. They form a
+one-parameter family; the member reported is the one maximising the smallest
+multiplier. The residual is the infinity-norm over all `2N+1` rows, dependent
+rows included.
+
 Two caveats, recorded rather than smoothed. The stationary point is **not
 isolated** — two points lie in no active triangle and drift freely between
 `r = 0.960` and `r = 1.000`. And re-running the walk re-snaps about `1.9e-34`
@@ -178,7 +186,9 @@ A recorded, replayable study — seed base `20260824`, restart seeds
 every restart LP-polished (`data/n14_reproduction.json`):
 
 - **9 of 16384 restarts reach the record basin — 0.055%, about one in 1800**,
-  roughly 1600 CPU-seconds per hit. 15693 s wall, 14596 s CPU on 10 cores.
+  roughly 1600 CPU-seconds per hit. Wall-clock 15693 s; summed process CPU time
+  14596 s, on a 10-core machine with 8 search threads (the run was not
+  CPU-saturated, so summed CPU is below wall x cores).
 - 4 restarts reach the 11+3 basin matching the archived figure; 34 exceed
   Cantrell's printed value; 13684 distinct basins
   at a `1e-9` tolerance.
