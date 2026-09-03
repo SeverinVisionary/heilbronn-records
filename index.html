@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Heilbronn's triangle problem in the disk: a certified n = 14 construction</title>
+<link rel="canonical" href="https://severinvisionary.github.io/heilbronn-records/">
+<meta name="description" content="An exact-arithmetic lower bound for Heilbronn's triangle problem in the unit disk: alpha_disk(14) >= 0.0767158857710289397517847755066, about +1.075% above the best earlier documented 14-point value, verified from integer coordinates by a 157-line standard-library script. Plus an exact rigidity audit of the unit-square record landscape for 7 <= n <= 12.">
+<meta name="keywords" content="Heilbronn triangle problem, Heilbronn's problem, smallest triangle, unit disk, alpha_disk, certified lower bound, exact arithmetic, rational arithmetic, discrete geometry, extremal geometry, computational geometry, rigidity theory, prestress stability, infinitesimal rigidity, Cantrell, Erich Friedman, reproducible research">
+<meta name="author" content="Hanyu Yang">
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
+
+<!-- Google Scholar / Highwire Press -->
+<meta name="citation_title" content="Heilbronn's triangle problem in the disk: a certified n = 14 construction, with a census for 7 &lt;= n &lt;= 16">
+<meta name="citation_author" content="Yang, Hanyu">
+<meta name="citation_author_orcid" content="0009-0005-0419-4070">
+<meta name="citation_publication_date" content="2026/08/25">
+<meta name="citation_online_date" content="2026/08/25">
+<meta name="citation_doi" content="10.5281/zenodo.22091169">
+<meta name="citation_abstract_html_url" content="https://severinvisionary.github.io/heilbronn-records/">
+<meta name="citation_public_url" content="https://severinvisionary.github.io/heilbronn-records/">
+<meta name="citation_technical_report_institution" content="Independent researcher">
+<meta name="citation_language" content="en">
+<meta name="citation_keywords" content="Heilbronn triangle problem; unit disk; certified lower bound; exact arithmetic; rigidity theory">
+
+<!-- Dublin Core -->
+<meta name="DC.title" content="Heilbronn's triangle problem in the disk: a certified n = 14 construction">
+<meta name="DC.creator" content="Yang, Hanyu">
+<meta name="DC.date" content="2026-08-25">
+<meta name="DC.type" content="Dataset">
+<meta name="DC.identifier" content="https://doi.org/10.5281/zenodo.22091169">
+<meta name="DC.rights" content="CC BY 4.0">
+
+<!-- Open Graph -->
+<meta property="og:type" content="article">
+<meta property="og:title" content="Heilbronn's triangle problem in the disk: a certified n = 14 construction">
+<meta property="og:description" content="An exact-arithmetic 14-point lower bound in the unit disk, about +1.075% above the best earlier documented value, plus a rigidity audit of the unit-square landscape.">
+<meta property="og:url" content="https://severinvisionary.github.io/heilbronn-records/">
+<meta property="og:site_name" content="Heilbronn records">
+<meta name="twitter:card" content="summary">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Heilbronn's triangle problem in the disk: a certified n = 14 construction, with a census for 7 <= n <= 16",
+  "description": "An explicit 14-point configuration in the closed unit disk, in exact integer coordinates over a common scale of 10^33, proving alpha_disk(14) >= 0.076715885771028939751784775506633485800988522351575884799934177551. All 364 triangle areas and disk containment are decided in exact rational arithmetic, and a 157-line Python standard-library verifier re-derives the bound from the deposited files. The value exceeds by about +1.075% the best earlier 14-point value the authors could locate (A = .0758+, attributed to David Cantrell, June 2007, on Erich Friedman's page 'The Heilbronn Problem for Circles', offline since around 2024). The configuration has no reflection symmetry: 8 points on the boundary circle, 6 in the interior. The companion repository also contains an exact rigidity audit of the best-known unit-square configurations for 7 <= n <= 12, in which n = 10 is the unique first-order flexible case and is shown prestress stable, and an n = 12 minimal-rigid-core classification.",
+  "url": "https://severinvisionary.github.io/heilbronn-records/",
+  "identifier": [
+    "https://doi.org/10.5281/zenodo.22091169",
+    "https://doi.org/10.5281/zenodo.22091170"
+  ],
+  "sameAs": [
+    "https://doi.org/10.5281/zenodo.22091169",
+    "https://zenodo.org/records/22091170",
+    "https://github.com/SeverinVisionary/heilbronn-records"
+  ],
+  "creator": {
+    "@type": "Person",
+    "name": "Hanyu Yang",
+    "identifier": "https://orcid.org/0009-0005-0419-4070",
+    "url": "https://orcid.org/0009-0005-0419-4070"
+  },
+  "datePublished": "2026-08-25",
+  "inLanguage": "en",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "isAccessibleForFree": true,
+  "keywords": "Heilbronn triangle problem, unit disk, certified lower bound, exact arithmetic, discrete geometry, rigidity theory, prestress stability, computational geometry",
+  "variableMeasured": {
+    "@type": "PropertyValue",
+    "name": "alpha_disk(14)",
+    "minValue": "0.076715885771028939751784775506633485800988522351575884799934177551",
+    "description": "Certified lower bound on the largest achievable minimum triangle area among 14 points in the closed disk of radius 1."
+  },
+  "includedInDataCatalog": {
+    "@type": "DataCatalog",
+    "name": "Zenodo",
+    "url": "https://zenodo.org/"
+  },
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "name": "heilbronn-disk-n14.zip",
+      "encodingFormat": "application/zip",
+      "contentUrl": "https://zenodo.org/records/22091170/files/heilbronn-disk-n14.zip",
+      "contentSize": "810651"
+    }
+  ],
+  "isBasedOn": {
+    "@type": "SoftwareSourceCode",
+    "codeRepository": "https://github.com/SeverinVisionary/heilbronn-records",
+    "programmingLanguage": "Python",
+    "license": "https://creativecommons.org/licenses/by/4.0/"
+  }
+}
+</script>
+
+<style>
+  :root{
+    color-scheme: light;
+    --bg:#fbfbfa; --panel:#fff; --ink:#1a1d21; --ink2:#4a5158; --ink3:#767e86;
+    --rule:#dfe3e7; --accent:#14563d; --accent-soft:#e3f0e9; --mono-bg:#f2f4f5;
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      color-scheme: dark;
+      --bg:#111417; --panel:#181c20; --ink:#e6e9ec; --ink2:#a9b1b8; --ink3:#7d868e;
+      --rule:#2b3238; --accent:#6fc79c; --accent-soft:#152a21; --mono-bg:#1e2429;
+    }
+  }
+  :root[data-theme="dark"]{
+    color-scheme: dark;
+    --bg:#111417; --panel:#181c20; --ink:#e6e9ec; --ink2:#a9b1b8; --ink3:#7d868e;
+    --rule:#2b3238; --accent:#6fc79c; --accent-soft:#152a21; --mono-bg:#1e2429;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);
+    font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif}
+  code,pre,.m{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+  main{max-width:820px;margin:0 auto;padding:40px 20px 80px}
+  h1{font-size:28px;line-height:1.25;margin:0 0 12px;text-wrap:balance}
+  h2{font-size:20px;margin:40px 0 12px;padding-bottom:8px;border-bottom:1px solid var(--rule)}
+  p{margin:0 0 14px;max-width:68ch}
+  a{color:var(--accent)}
+  .sub{color:var(--ink2);font-size:17px;margin-bottom:22px}
+  .meta{font-size:14px;color:var(--ink3);border-top:1px solid var(--rule);
+    border-bottom:1px solid var(--rule);padding:12px 0;margin:22px 0}
+  .headline{background:var(--accent-soft);border:1px solid var(--rule);
+    padding:16px 18px;margin:22px 0;font-size:16px;word-break:break-all}
+  table{border-collapse:collapse;width:100%;font-size:14.5px;margin:8px 0 4px}
+  .wrap{overflow-x:auto}
+  th,td{padding:8px 12px;text-align:left;border-bottom:1px solid var(--rule);white-space:nowrap}
+  th{font-size:12.5px;text-transform:uppercase;letter-spacing:.06em;color:var(--ink3)}
+  td.n{text-align:right;font-variant-numeric:tabular-nums;font-family:ui-monospace,Menlo,monospace}
+  pre{background:var(--mono-bg);border:1px solid var(--rule);padding:14px 16px;
+    overflow-x:auto;font-size:13.5px;margin:0 0 14px}
+  ul{padding-left:22px;max-width:68ch}
+  li{margin-bottom:7px}
+  footer{margin-top:48px;padding-top:16px;border-top:1px solid var(--rule);
+    font-size:13.5px;color:var(--ink3)}
+</style>
+</head>
+<body>
+<main>
+
+<h1>Heilbronn's triangle problem in the disk: a certified <span class="m">n = 14</span> construction</h1>
+<p class="sub">An explicit 14-point configuration in exact integer coordinates,
+improving the best 14-point value we could locate by about 1.075%, with every
+triangle area decided in exact rational arithmetic.</p>
+
+<div class="meta">
+  <strong>Hanyu Yang</strong> · ORCID <a href="https://orcid.org/0009-0005-0419-4070">0009-0005-0419-4070</a><br>
+  DOI <a href="https://doi.org/10.5281/zenodo.22091169">10.5281/zenodo.22091169</a> ·
+  <a href="https://zenodo.org/records/22091170">Zenodo record</a> ·
+  <a href="https://github.com/SeverinVisionary/heilbronn-records">source repository</a> ·
+  25 August 2026
+</div>
+
+<h2>The bound</h2>
+<p>Place <span class="m">n</span> points in the closed disk of radius 1. Among
+the <span class="m">C(n,3)</span> triangles they form, look at the smallest —
+how large can that smallest triangle be forced to be? Call that quantity
+<span class="m">α_disk(n)</span>. For almost every <span class="m">n</span>,
+nobody knows its exact value. This deposit settles one thing about
+<span class="m">n = 14</span>:</p>
+
+<div class="headline"><span class="m">α_disk(14) ≥
+0.076715885771028939751784775506633485800988522351575884799934177551</span></div>
+
+<p>It exceeds by about <strong>+1.075%</strong> the best earlier 14-point value
+we could locate — <span class="m">A = .0758+</span>, attributed to David Cantrell
+(June 2007) on Erich Friedman's page <em>The Heilbronn Problem for Circles</em>,
+offline since around 2024 and surviving only in web archives. It is
+<strong>not a rediscovery</strong>: Friedman's page describes the 2007
+configuration as horizontally symmetric, while this one has no reflection
+symmetry at all — 8 points on the boundary circle, 6 in the interior.</p>
+
+<h2>Why you need not trust the search</h2>
+<p>A lower bound is settled by a single configuration, so nothing about the
+search that found it needs to be believed.</p>
+<ul>
+  <li>All 14 points are stored as <strong>integers over a common scale of
+  10<sup>33</sup></strong>, so disk containment and all 364 triangle areas are
+  decided in exact rational arithmetic. <strong>No floating point appears
+  anywhere in the certificate.</strong></li>
+  <li>A <strong>157-line verifier using nothing but the Python standard
+  library</strong> re-derives the bound from the deposited files — short enough
+  to read in full before believing it.</li>
+</ul>
+<pre>git clone https://github.com/SeverinVisionary/heilbronn-records
+cd heilbronn-records/disk &amp;&amp; python3 verify.py configs   # 12 of 12 verified</pre>
+<p>The basin is hard to hit: in a seed-recorded study an independent restart
+landed in it about <strong>once in 1800</strong> tries (9 hits in 16384).
+Reproducible, and easy to miss.</p>
+
+<h2>What is claimed, and what is not</h2>
+<ul>
+  <li>This is a certified <strong>lower bound</strong> on an unknown quantity,
+  improving the best previously <em>documented</em> construction we could locate.
+  It is <strong>not</strong> a proved record and <strong>not</strong> an
+  optimality result.</li>
+  <li>No published coordinates for Cantrell's construction were found, and no
+  improvement in the nineteen years since — but the deposit states plainly which
+  sources were <em>not</em> checked. “The best value we could locate”, not “the
+  first improvement since 2007”.</li>
+  <li>The companion <strong>unit-square</strong> lane in the repository broke
+  <strong>no</strong> records, and none is claimed.</li>
+  <li>Two <strong>retractions</strong> are kept in the repository rather than
+  deleted: six configurations once claimed as best known were later beaten by a
+  naive annealer, and a claimed +3.79% at <span class="m">n = 11</span> turned out
+  to be Cantrell's own 2006 configuration reached through a wrong baseline row.</li>
+</ul>
+
+<h2>The square lane: structure, not records</h2>
+<ul>
+  <li><strong>A rigidity audit of the record landscape,
+  <span class="m">7 ≤ n ≤ 12</span></strong>, each best-known square
+  configuration certified in its own exact field. Five are infinitesimally
+  rigid; <span class="m">n = 10</span> is the unique exception.</li>
+  <li><strong><span class="m">n = 10</span> is prestress stable</strong> —
+  first-order flexible (rank 19 in dimension 20) but second-order rigid: an exact
+  strictly positive stress collapses the feasible cone onto the flex line and the
+  stress-weighted Hessian is negative (<span class="m">Q = −109.241</span>), so
+  the configuration is a strict, isolated local maximum.</li>
+  <li><strong>An <span class="m">n = 12</span> minimal-core theorem</strong>: all
+  6196 subsets of the active triangles classified with exact two-sided
+  certificates — exactly three <span class="m">D₄</span>-classes of
+  inclusion-minimal rigid cores, of sizes 17/18/18, and no rigid 16-subset.</li>
+</ul>
+
+<h2>Cite</h2>
+<pre>Yang, Hanyu (2026). Heilbronn's triangle problem in the disk: a certified
+n = 14 construction, with a census for 7 &lt;= n &lt;= 16 [Data set].
+Zenodo. https://doi.org/10.5281/zenodo.22091169</pre>
+
+<footer>
+CC BY 4.0. No third-party material is redistributed; historical sources are cited
+and checksummed in the repository, never copied. This page is documentation for
+the deposit and is served from the <span class="m">gh-pages</span> branch.
+</footer>
+
+</main>
+</body>
+</html>
