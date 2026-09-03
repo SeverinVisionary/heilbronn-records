@@ -253,13 +253,15 @@ worth reporting upstream, not a mathematical contribution.
 ## 7. Prior art — scope and limits
 
 Checked, with no disk values found: Finch, *Mathematical Constants* §8.16;
-Goldberg (1972); the Yang–Zhang–Zeng literature; Karpov's Ascension framework
-(square and triangle only — his page and data archived here);
-erdosproblems #507 (asymptotics only); DataCite / Zenodo / OSF / figshare; and
-the LLM-discovery literature — AlphaEvolve, GigaEvo, EinsteinArena, SeaEvo,
-BLADE — all of which treat the square, the unit-area triangle, or a free convex
-hull, never the disk. The only other disk tabulation, Lystad's *DISK_TABLE* v1.2
-(2026), is below Cantrell at every `n` we checked.
+Goldberg (1972), *Math. Mag.* **45** 135–144,
+doi:10.1080/0025570X.1972.11976214; the Yang–Zhang–Zeng literature; Karpov's
+Ascension framework (square and triangle only — his page and data archived
+here); erdosproblems #507 (asymptotics only); DataCite / Zenodo / OSF /
+figshare; and the LLM-discovery literature — AlphaEvolve, GigaEvo,
+EinsteinArena, SeaEvo, BLADE — all of which treat the square, the unit-area
+triangle, or a free convex hull, never the disk. The only other disk
+tabulation, Lystad's *DISK_TABLE* v1.2 (2026), is below Cantrell at every `n`
+we checked.
 
 **Not checked.** Math-Net.Ru, Croft–Falconer–Guy §F7, Brass–Moser–Pach. We
 therefore do **not** assert that our search is exhaustive, and we do not claim
